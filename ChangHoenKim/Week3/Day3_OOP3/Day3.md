@@ -356,7 +356,7 @@ abstract class Player{
 }
 ```
 
-완성된 설계도가 아니므로 인스턴스를 생성할 수 없으며, 일반메서드가 추상메서드를 호출할 수 있습니다.(호출할 때 필요한 건 선언부) 
+완성된 설계도가 아니므로 인스턴스를 생성할 수 없으며, 일반메소드가 추상메소드를 호출할 수 있습니다.(호출할 때 필요한 건 선언부) 
 
 보통 다른 클래스를 작성하는 데 도움을 줄 목적으로 작성됩니다. 
 
@@ -373,12 +373,13 @@ abstract class Player{
 <img src="/Week3/Day3_OOP3/course_statement/image/abstract2.png" width="40%" height="40%"></img>
 </p>
 <p align="center">
-<img src="/Week3/course_statement/image/abstract3.jpg" width="50%" height="40%"></img>
+<img src="/Week3/Day3_OOP3/course_statement/image/abstract3.png" width="50%" height="40%"></img>
 </p>
 
 ## 자바 패키지 리스트 페이지
 
 https://docs.oracle.com/en/java/javase/11/docs/api/index.html
+https://docs.oracle.com/en/java/javase/11/docs/api/java.base/module-summary.html
 
 ```
 // 해당 메소드의 경우 클래스와 포함 메소드가 static이자 public인데 생성자는 private입니다. 이는 싱글톤 패턴을 사용하기 위함입니다. 

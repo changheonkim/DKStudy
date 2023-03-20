@@ -1,4 +1,4 @@
-# 자바 언어 기초
+# 객체 지향 프로그래밍
 
 ## 프로그래밍 언어의 종류
 
@@ -197,3 +197,34 @@ class Student4{
 
 }
 ```
+
+## Scanner - java5
+
+next():String - 한 단어
+
+: 입력버퍼에서 개행문자를 제외한 값만을 담습니다. 그렇기에 이후에 바로 오는 input을 null로 인식하기에 주의해야 합니다.
+이후 nextLine을 하나 더 주는 방식으로 이 문제를 해결할 수 있습니다.
+
+nextLine():String - 한 행
+
+```
+String str1 = sc.next();
+String str2 = sc.next();
+//sc.nextLine();  // 입력버퍼에 남아있는 개행문자를 청소하는 기능
+String line1 = sc.nextLine();
+String line2 = sc.nextLine();
+
+```
+nextLint():int - 정수형 단어
+
+nextDouble():double - 실수형 숫자
+
+### 클래스 다이어그램 멤버들의 접근성 정의
+\+ : public
+
+\# : protected
+
+생략 : default
+
+\- : private
+
